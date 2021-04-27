@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class ColorIsEverything : ModuleRules
+public class SlimeysSweetSweep : ModuleRules
 {
-	public ColorIsEverything(ReadOnlyTargetRules Target) : base(Target)
+	public SlimeysSweetSweep(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	

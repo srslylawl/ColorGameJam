@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class ColorIsEverythingEditorTarget : TargetRules
+public class SlimeysSweetSweepEditorTarget : TargetRules
 {
-	public ColorIsEverythingEditorTarget(TargetInfo Target) : base(Target)
+	public SlimeysSweetSweepEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 
-		ExtraModuleNames.AddRange( new string[] { "ColorIsEverything" } );
+		ExtraModuleNames.AddRange( new string[] { "SlimeysSweetSweep" } );
 	}
 }
